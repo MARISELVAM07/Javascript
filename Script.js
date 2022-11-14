@@ -1,1 +1,1 @@
-alert("Welcome to J s");
+alert("Welcome to JS");
