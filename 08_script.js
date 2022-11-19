@@ -16,7 +16,7 @@ a*=5;
 console.log(a);
 
 //division
-a/=5;
+a/=5;  
 console.log(a);
 
 //modulus
