@@ -1,6 +1,6 @@
 // ASSIGNMENT OPERATOS
 
-let a=20;
+let a=7;
 // a=a+5;  // +=
 
 //adding
