@@ -39,3 +39,36 @@ console.log(c);
 //Power value
 c=Math.pow(2,4);
 console.log(c);
+
+// max and min value
+c=Math.min(10,20,30,40,50,60,70);
+console.log(c);
+c=Math.max(10,20,30,40,50,60,70);
+console.log(c);
+
+//Random Number
+c=Math.random();
+console.log(c);
+//Random Number 1-50
+c=Math.floor((Math.random()*50+1));
+console.log(c);
+
+//sign (positive = 1, Negative = -1, 0=0)
+c=Math.sign(25);
+console.log(c);
+c=Math.sign(-25);
+console.log(c);
+c=Math.sign(0);
+console.log(c);
+
+// sin, cos, tan
+c=Math.sin(45);
+console.log(c);
+c=Math.cos(45);
+console.log(c);
+
+//log value
+c=Math.log(45);
+console.log(c);
+c=Math.log2(45);
+console.log(c);
