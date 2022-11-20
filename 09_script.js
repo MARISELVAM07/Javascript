@@ -50,7 +50,7 @@ console.log(c);
 c=Math.random();
 console.log(c);
 //Random Number 1-50
-c=Math.floor((Math.random()*50+1));
+c=Math.floor((Math.random()*100+1));
 console.log(c);
 
 //sign (positive = 1, Negative = -1, 0=0)
@@ -72,3 +72,4 @@ c=Math.log(45);
 console.log(c);
 c=Math.log2(45);
 console.log(c);
+ 
