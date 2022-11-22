@@ -21,3 +21,11 @@ Number=3;
 console.log(Number==2 || Number==5);
 
 
+// The give statement is NOT
+
+let a=true;
+console.log(!a);
+
+a=false;
+console.log(!a);
+
