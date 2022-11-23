@@ -7,3 +7,6 @@ let last_name="Selvam";
 let c=first_name+" "+last_name;
 console.log("Concatenation: "+c);
 
+//Concat
+c=first_name.concat(" ",last_name);
+console.log("Concat: "+c);
