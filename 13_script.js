@@ -55,7 +55,7 @@ console.log("charAt: "+c);
 c=first_name.charCodeAt(1);
 console.log("charCodeAt: "+c);
 
-//substring
+//              substring
 /*************************************** */
 
 c=first_name.substring(0,1);//0-M,1-a,2-r,3-i
@@ -75,7 +75,7 @@ console.log("substring(-2): "+c);
 
 /*************************************** */
 
-//slice
+//                 slice
 /************************************** */
 
 c=first_name.slice(0,1);//0-M,1-a,2-r,3-i
@@ -93,4 +93,4 @@ console.log("slice(7): "+c);
 c=first_name.slice(-2);//if we give negative value it take from last in same order
 console.log("slice(-2): "+c);
 
-/************************************** */
+/************************************* */
