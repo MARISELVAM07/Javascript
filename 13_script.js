@@ -49,9 +49,48 @@ console.log("lastIndexOf M: "+c);
 
 // charecter of
 c=first_name.charAt(1);
-console.log("charAt: "+c)
+console.log("charAt: "+c);
 
 //charCodeAt - #key value
 c=first_name.charCodeAt(1);
 console.log("charCodeAt: "+c);
 
+//substring
+/*************************************** */
+
+c=first_name.substring(0,1);//0-M,1-a,2-r,3-i
+console.log("substring(0,1): "+c);
+
+c=first_name.substring(1);//0-M,1-a,2-r,3-i
+console.log("substring(1): "+c);
+
+c=first_name.substring(1,0);//it take smaller value first and larger next
+console.log("substring(1,0): "+c);
+
+c=first_name.substring(7);// the value of array is only 4. so, it doesn't give any result
+console.log("substring(7): "+c);
+
+c=first_name.substring(-2);//if we give negative value it take from 0.
+console.log("substring(-2): "+c);
+
+/*************************************** */
+
+//slice
+/************************************** */
+
+c=first_name.slice(0,1);//0-M,1-a,2-r,3-i
+console.log("slice(1,0): "+c);
+
+c=first_name.slice(1);//0-M,1-a,2-r,3-i
+console.log("slice(1): "+c);
+
+c=first_name.slice(1,0);//only smaller value first and biggest value sencond
+console.log("slice(1,0): "+c);
+
+c=first_name.slice(7);// the value of array is only 4. so, it doesn't give any result
+console.log("slice(7): "+c);
+
+c=first_name.slice(-2);//if we give negative value it take from last in same order
+console.log("slice(-2): "+c);
+
+/************************************** */
